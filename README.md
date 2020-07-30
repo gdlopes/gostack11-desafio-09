@@ -36,7 +36,7 @@ Primeiro é necessário criar um banco de dados para conseguir utilizar a aplica
 $ docker run --name gostack_desafio09_tests -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 ```
 
-É possível criar utilizando outras credenciais, caso mude, lembre-se de alterar no [arquivo de configuração do typeorm]().
+É possível criar utilizando outras credenciais, caso mude, lembre-se de alterar no [arquivo de configuração do typeorm](https://github.com/gdlopes/gostack11-desafio-09/blob/master/ormconfig.json).
 
 Feito isso, podemos seguir.
 
@@ -63,7 +63,7 @@ $ yarn dev:server
 
 ## :boom: Agora, utilize o [Insomnia](https://insomnia.rest/) para ver tudo funcionando :)
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)]()
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=GoStack%20-%20Desafio%2009&uri=https%3A%2F%2Fgithub.com%2Fgdlopes%2Fgostack11-desafio-09%2Fblob%2Fmaster%2FInsomnia_2020-07-30.json)
 
 ### Thats it ! :wave:
 
